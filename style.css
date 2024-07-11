@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(190, 124, 119);
+}
+
+.container {
+    background: #25b4b998;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(167, 58, 58, 0.1);
+    text-align: center;
+}
+
+#itemInput {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #f9f9f9;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li.purchased {
+    text-decoration: line-through;
+    background: #d9ffd9;
+}
